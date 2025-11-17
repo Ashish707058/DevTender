@@ -15,7 +15,9 @@ const userAuth =(req, res, next) => {
   const Token = "xyz";
   const isUserAuthenticated = Token === "xyz"; // Simulated authentication check
   if (!isUserAuthenticated){
-    return res.status(403).send("Access denied");
+    console.log("User authenticated");
+    return res.status(403).send("Access denied");  
+
   }
   else{
     next();

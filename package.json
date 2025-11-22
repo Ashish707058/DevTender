@@ -4,15 +4,16 @@
   "description": "tinder for dev ",
   "main": "index.js",
   "scripts": {
-    "start": "node src/App.js",
-    "dev": "nodemon src/App.js"
+    "start": "node App.js",
+    "dev": "nodemon App.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mongodb": "^7.0.0"
   },
-   "devDependencies": {
+  "devDependencies": {
     "nodemon": "^3.1.0"
   }
 }

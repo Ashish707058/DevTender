@@ -1,5 +1,5 @@
 const express = require('express');
-const {adminAuth,userAuth} = require('./middleware/auth');
+const {adminAuth,userAuth} = require('./src/middleware/auth');
 const app = express();
 
 
